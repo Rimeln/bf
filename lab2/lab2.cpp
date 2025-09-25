@@ -39,12 +39,12 @@ int main() {
 	std::cout << "Введите координату y для второй точки от -100 до 100:" << std::endl;
 	int y2;
 	std::cin >> y2;
-	std::cout << " " << std::endl;
+	std::cout << " " << std::endl<<std::endl;
 
 
 	double rt = pow(pow(x2 - x1, 2) + pow(y2 - y1, 2), 0.5);
 
-	std::cout << rt << std::endl;
+	std::cout<< "Расстояние между двумя точками: " << rt << std::endl;
 
 
 	return 0;
